@@ -60,27 +60,27 @@ namespace z2_1_wielomian
                 Console.WriteLine($"W( int[0] ) --> ArgumentException: {e.Message}");
             }
 
-            //Console.WriteLine("== Równość, nierówność ==");
+            Console.WriteLine("== Równość, nierówność ==");
 
-            //Console.WriteLine($"W(1, 2).Equals(W(1, 2)) : {(new W(1, 2)).Equals(new W(1, 2))}");
-            //Console.WriteLine($"wX.Equals(wX) : {wX.Equals(wX)}");
-            //Console.WriteLine($"wX.Equals(null) : {wX.Equals(null)}");
-            //Console.WriteLine($"wX.Equals(Object) : {wX.Equals(new Object())}");
-            //Console.WriteLine($"W(1, 2) == W(1, 2) : {new W(1, 2) == new W(1, 2)}");
-            //Console.WriteLine($"W(1, 2) == W(2, 1) : {new W(1, 2) == new W(2, 1)}");
-            //Console.WriteLine($"W(1, 2) != W(2, 1) : {new W(1, 2) != new W(2, 1)}");
-            //Console.WriteLine($"W(1, 2) == W(0, 1, 2) : {new W(1, 2) == new W(0, 1, 2)}");
-            //Console.WriteLine($"W(1, 2) != W(0, 1, 2) : {new W(1, 2) != new W(0, 1, 2)}");
+            Console.WriteLine($"W(1, 2).Equals(W(1, 2)) : {(new W(1, 2)).Equals(new W(1, 2))}");
+            Console.WriteLine($"wX.Equals(wX) : {wX.Equals(wX)}");
+            Console.WriteLine($"wX.Equals(null) : {wX.Equals(null)}");
+            Console.WriteLine($"wX.Equals(Object) : {wX.Equals(new Object())}");
+            Console.WriteLine($"W(1, 2) == W(1, 2) : {new W(1, 2) == new W(1, 2)}");
+            Console.WriteLine($"W(1, 2) == W(2, 1) : {new W(1, 2) == new W(2, 1)}");
+            Console.WriteLine($"W(1, 2) != W(2, 1) : {new W(1, 2) != new W(2, 1)}");
+            Console.WriteLine($"W(1, 2) == W(0, 1, 2) : {new W(1, 2) == new W(0, 1, 2)}");
+            Console.WriteLine($"W(1, 2) != W(0, 1, 2) : {new W(1, 2) != new W(0, 1, 2)}");
 
 
-            //Console.WriteLine("== Operacje arytmetyczne ==");
+            Console.WriteLine("== Operacje arytmetyczne ==");
 
-            //var w21 = new W(1, 2, 3);
-            //var w22 = new W(0, 1, 2);
-            //Console.WriteLine($"({w21}) + ({w22}) = {w21 + w22}");
-            //Console.WriteLine($"({w22}) + ({w21}) = {w22 + w21}");
-            //Console.WriteLine($"({w21}) - ({w22}) = {w21 - w22}");
-            //Console.WriteLine($"({w22}) - ({w21}) = {w22 - w21}");
+            var w21 = new W(1, 2, 3);
+            var w22 = new W(0, 1, 2);
+            Console.WriteLine($"({w21}) + ({w22}) = {w21 + w22}");
+            Console.WriteLine($"({w22}) + ({w21}) = {w22 + w21}");
+            Console.WriteLine($"({w21}) - ({w22}) = {w21 - w22}");
+            Console.WriteLine($"({w22}) - ({w21}) = {w22 - w21}");
 
             //Console.WriteLine($"({w21}) + {10} = {w21 + 10}");
             //Console.WriteLine($"{10} + ({w21}) = {10 + w21}");
